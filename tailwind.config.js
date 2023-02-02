@@ -23,13 +23,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navbar: "#edf3ec",
+        navbar: "#ffffff",
         bottombanner: "#ffffff",
-        footer: "#eef3ec",
-        footertext: "#194009",
-        primary: "#186d00",
-        primarydark: "#174009",
-        topics: "#82e773",
+        footer: "#272727",
+        footertext: "#efedf1",
+        primary: "#183ea8",
+        primarydark: "#478169",
+        topics: "#4c96be",
       },
     },
   },

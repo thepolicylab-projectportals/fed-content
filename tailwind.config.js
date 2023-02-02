@@ -24,12 +24,12 @@ module.exports = {
     extend: {
       colors: {
         navbar: "#ffffff",
-        bottombanner: "#ffffff",
+        bottombanner: "#bbcae4",
         footer: "#272727",
         footertext: "#efedf1",
-        primary: "#183ea8",
-        primarydark: "#478169",
-        topics: "#4c96be",
+        primary: "#0d7ea2",
+        primarydark: "#171716",
+        topics: "#2e8367",
       },
     },
   },

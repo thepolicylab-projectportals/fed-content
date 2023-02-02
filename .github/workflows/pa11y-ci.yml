@@ -1,0 +1,8 @@
+name: pa11y accessibility check
+
+on: pull_request
+
+jobs:
+  call-ci-workflow:
+    uses: thepolicylab-projectportals/.github/.github/workflows/pa11y-ci.yml@main
+    secrets: inherit

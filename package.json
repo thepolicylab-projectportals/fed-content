@@ -14,7 +14,7 @@
     "@thepolicylab-projectportals/gatsby-theme-project-portal": "^4.1.1",
     "@thepolicylab-projectportals/project-portal-content-netlify": "^4.1.1",
     "gatsby": "^4.25.0",
-    "gatsby-plugin-netlify": "^5.0.1",
+    "gatsby-plugin-netlify": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

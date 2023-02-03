@@ -24,7 +24,7 @@ module.exports = {
     extend: {
       colors: {
         navbar: "#ffffff",
-        bottombanner: "#bbcae4",
+        bottombanner: "#e0e2e3",
         footer: "#272727",
         footertext: "#efedf1",
         primary: "#0d7ea2",

@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "title": "Project Portal Example (Site with Queries)",
+    "pages": [
+      {
+        "name": "Open Murks",
+        "link": "/",
+        "show": true
+      },
+      {
+        "name": "Ongoing",
+        "link": "/ongoing",
+        "show": true
+      },
+      {
+        "name": "Completed",
+        "link": "/completed",
+        "show": true
+      },
+      {
+        "name": "About",
+        "link": "/about",
+        "show": true
+      },
+      {
+        "name": "Contact",
+        "link": "/contact",
+        "show": true
+      }
+    ]
+  },
+  "footer": {
+    "heading": {
+      "title": "Evaluation.gov",
+      "link": "https://www.evaluation.gov/"
+    },
+    "copyright": "A preview website for the Office of Management and Budget.",
+    "links": [
+      {
+        "title": "ACCESSIBILITY",
+        "link": "https://www.gsa.gov/website-information/accessibility-aids"
+      },
+      {
+        "title": "PRIVACY POLICY",
+        "link": "https://www.gsa.gov/website-information/website-policies"
+      }
+    ]
+  },
+  "bottom_banner": {
+    "text": "This project portal was developed by the Evaluation Officer Council and The Policy Lab at Brown University. If you have ideas for how to improve it, please [let us know!](/contact)",
+    "link": ""
+  },
+  "lastModified": "2023-02-07T23:09:59.837Z"
+}

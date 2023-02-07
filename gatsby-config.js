@@ -1,4 +1,4 @@
-const staticText = require("./language.json")
+const layoutConfig = require(`${__dirname}/content/config/layout.json`)
 
 module.exports = {
   siteMetadata: {
@@ -8,27 +8,9 @@ module.exports = {
     {
       resolve: `@thepolicylab-projectportals/gatsby-theme-project-portal`,
       options: {
-        pages: [
-          { name: staticText.open.pageName, link: "/", show: true },
-          {
-            name: staticText.ongoing.pageName,
-            link: "/ongoing",
-            show: true,
-          },
-          {
-            name: staticText.completed.pageName,
-            link: "/completed",
-            show: true,
-          },
-          {
-            name: "About",
-            link: "/about",
-            show: true,
-          },
-          { name: "Contact", link: "/contact", show: true },
-        ],
+        pages: layoutConfig.navbar.pages,
         tailwindConfig: require("./tailwind.config"),
-        staticText: staticText,
+        staticText: layoutConfig,
         showDevBanner: true,
         faviconPath: `${__dirname}/content/theme-image/favicon.png`,
       },

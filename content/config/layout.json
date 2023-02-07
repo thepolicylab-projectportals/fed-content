@@ -3,7 +3,7 @@
     "title": "Project Portal Example (Site with Queries)",
     "pages": [
       {
-        "name": "Open Murks",
+        "name": "Open",
         "link": "/",
         "show": true
       },

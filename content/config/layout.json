@@ -1,4 +1,5 @@
 {
+  "showDevBanner": true,
   "navbar": {
     "title": "Project Portal Example (Site with Queries)",
     "pages": [
@@ -46,7 +47,7 @@
       }
     ]
   },
-  "bottom_banner": {
+  "bottomBanner": {
     "text": "This project portal was developed by the Evaluation Officer Council and The Policy Lab at Brown University. If you have ideas for how to improve it, please [let us know!](/contact)",
     "link": ""
   },

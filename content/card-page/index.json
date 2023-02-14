@@ -1,10 +1,9 @@
 {
-  "templateKey": "CardPage",
   "title": "Open partnership opportunities",
   "pageName": "Open opportunities",
   "lede": "Federal state agencies are increasingly interested in collaborating with external partners to answer questions that inform decision making and improve policy and programmatic functions. The Evaluation Officer Council helps develop, launch, and enhance these cross-sector partnerships. Learn more below about some open opportunities.\n\nEvaluation Officer Council created the Evaluation.gov Project Portal to share opportunities for partnering with federal agencies on their research needs and for people to express interest in pursuing those opportunities. Have a question about partnerships? Visit our [FAQ](/about) page.",
   "sortOptions": ["created", "opportunityCloses"],
-  "filter": {
+  "filterOn": {
     "status": ["open"]
   }
 }

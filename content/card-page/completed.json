@@ -1,10 +1,15 @@
 {
-  "templateKey": "CardPage",
   "title": "Completed projects",
   "pageName": "Completed projects",
   "lede": "Federal agencies collaborate with external partners to answer important research, policy, and programmatic questions.  Some of these projects the Evaluation Officer Council (EOC) works on directly and others EOC catalyzes and finds research expertise to support. Learn more below about some completed projects.\n\nEOC created the Evaluation.gov Project Portal to share opportunities for partnering with state agencies on their research needs and for people to express interest in pursuing those opportunities. Have a question about partnerships? Visit our [FAQ](/about) page.",
-  "sortOptions": ["endDate", "created"],
-  "filter": {
-    "status": ["completed"]
-  }
+  "sortOptions": [
+    "endDate",
+    "created"
+  ],
+  "filterOn": {
+    "status": [
+      "completed"
+    ]
+  },
+  "shortTitle": "Completed"
 }

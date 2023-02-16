@@ -1,17 +1,16 @@
-const layoutConfig = require(`${__dirname}/content/config/layout.json`)
+const {
+  loadProjectPortalThemeOptions,
+} = require("@thepolicylab-projectportals/project-portal-content-netlify/utils/theme-options")
+const { siteMetadata, themeOptions } = loadProjectPortalThemeOptions()
 
 module.exports = {
-  siteMetadata: {
-    title: "Evaluation.gov Project Portal",
-  },
+  siteMetadata: siteMetadata,
   plugins: [
     {
       resolve: `@thepolicylab-projectportals/gatsby-theme-project-portal`,
       options: {
-        pages: layoutConfig.navbar.pages,
+        ...themeOptions,
         tailwindConfig: require("./tailwind.config"),
-        staticText: layoutConfig,
-        showDevBanner: true,
         faviconPath: `${__dirname}/content/theme-image/favicon.png`,
       },
     },

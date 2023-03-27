@@ -19,7 +19,8 @@
     "gatsby-plugin-sitemap": "^6.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.59.3"
+    "sass": "^1.59.3",
+    "uswds": "^2.13.3"
   },
   "devDependencies": {
     "pa11y-ci": "^3.0.1",

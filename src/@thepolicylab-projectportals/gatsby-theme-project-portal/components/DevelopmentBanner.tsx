@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import flag from 'uswds/img/us_flag_small.png';
 import dotGov from 'uswds/img/icon-dot-gov.svg';

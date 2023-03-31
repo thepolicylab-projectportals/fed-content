@@ -11,6 +11,7 @@ const themeMainFile = require.resolve(
 const themeDirectory = path.dirname(themeMainFile)
 
 module.exports = {
+ // important: true,
   presets: [
     require("@thepolicylab-projectportals/gatsby-theme-project-portal/src/styles/tailwind.presets"),
   ],

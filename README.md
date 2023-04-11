@@ -10,3 +10,15 @@ for the Evaluation Officer Council.
 ## Quick Start Guide
 
 See https://github.com/thepolicylab-projectportals/example-content#quick-start-guide for details.
+
+
+### Running the application
+
+#### With Docker
+    $ docker-compose run node npm install
+    $ docker-compose up
+
+To build but not serve the site, run:
+```
+docker-compose run node npm run build
+```

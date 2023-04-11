@@ -23,6 +23,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        govbanner : "#f0f0f0",
         navbar: "#ffffff",
         bottombanner: "#e0e2e3",
         footer: "#272727",

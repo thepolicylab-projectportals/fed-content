@@ -23,30 +23,28 @@ export const GovBanner: React.FC = () => {
   const govBannerClass = isExpanded ? showGovBanner : hideGovBanner
 
   return (
-    <div id="usa-banner" className="font-sans text-base bg-govbanner pb-0">
-      <div id="usa-accordion" className="font-sans text-base bg-govbanner">
-        <header id="usa-banner__header" className="text-small font-normal py-1 relative">
-          <div id="usa-banner__inner" className="items-center flex flex-wrap ml-auto mr-auto max-w-5xl pl-8 pr-8 pr-0">
-            <div id="grid-col-auto" className="max-w-full w-auto flex-initial">
+    <div className="font-sans text-base bg-govbanner pb-0">
+      <div className="font-sans text-base bg-govbanner">
+        <header className="text-small font-normal py-1 relative">
+          <div className="items-center flex flex-wrap ml-auto mr-auto max-w-5xl pl-8 pr-8 pr-0">
+            <div className="max-w-full w-auto flex-initial">
               <img
-                id="usa-banner__header-flag"
                 className="float-left mr-2 w-4"
                 src={flag}
                 alt="U.S. flag"
               />
             </div>
-            <div id="grid-col-fill tablet:grid-col-auto" className="flex-initial max-w-full min-w-1 w-auto text-xs">
-              <p id="usa-banner__header-text" className="text-xs mb-0 mt-0">
+            <div className="flex-initial max-w-full min-w-1 w-auto text-xs">
+              <p className="text-xs mb-0 mt-0">
                 An official website of the United States government
               </p>
-              <p id="usa-banner__header-action" className="sr-only mb-0 mt-0.5 underline text-[#005ea2] hover:text-[#1a4480]">
+              <p className="sr-only mb-0 mt-0.5 underline text-[#005ea2] hover:text-[#1a4480]">
                 Here’s how you know
               </p>
             </div>
             <button
               aria-controls="gov-banner"
               aria-expanded={false}
-              id="usa-accordion__button usa-banner__button"
               className="left-auto inline mb-0 ml-2 underline text-[#005ea2] hover:stroke-[#1a4480] hover:text-[#1a4480] text-xs flex items-center"
               onClick={handleButtonClick}
             >
@@ -65,13 +63,11 @@ export const GovBanner: React.FC = () => {
           </div>
         </header>
         <div
-          id="extended-gov-banner"
           className={govBannerClass}
         >
-          <div id="grid-row grid-gap-lg" className="my-0 -mx-3 flex flex-wrap" >
-            <div id="usa-banner__guidance-gov tablet:grid-col-6" className="px-3 flex-initial w-1/2 relative">
+          <div className="my-0 -mx-3 flex flex-wrap" >
+            <div className="px-3 flex-initial w-1/2 relative">
               <img
-                id="usa-banner__icon usa-media-block__img"
                 src={dotGov}
                 alt="Dot gov"
                 className="mr-2 w-10 max-w-full"
@@ -86,9 +82,8 @@ export const GovBanner: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div id="usa-banner__guidance-ssl tablet:grid-col-6" className="px-3 flex-initial w-1/2 relative">
+            <div className="px-3 flex-initial w-1/2 relative">
               <img
-                id="usa-banner__icon usa-media-block__img"
                 src={https}
                 alt="Https"
                 className="mr-2 w-10 max-w-full"

@@ -6,9 +6,9 @@ import https from '../../content/theme-image/icon-https.svg'
 
 
 const showArrowClass = "stroke-current mr-2 w-3 max-w-full ml-1 hover:stroke-[#1a4480]"
-const hideArrowClass = "stroke-current mr-2 w-3 max-w-full ml-1 hover:stroke-[#1a4480] hidden"
+const hideArrowClass = showArrowClass + " hidden"
 const showGovBanner = "py-6 px-8 text-base mx-auto max-w-5xl w-full overflow-hidden"
-const hideGovBanner = "py-6 px-8 text-base mx-auto max-w-5xl w-full overflow-hidden hidden"
+const hideGovBanner = showGovBanner + " hidden"
 
 
 export const GovBanner: React.FC = () => {
@@ -18,8 +18,8 @@ export const GovBanner: React.FC = () => {
     setIsExpanded(!isExpanded);
   };
 
-  const upArrowClass = isExpanded ? hideArrowClass : showArrowClass
-  const downArrowClass = isExpanded ? showArrowClass : hideArrowClass
+  const downArrowClass = isExpanded ? hideArrowClass : showArrowClass
+  const upArrowClass = isExpanded ? showArrowClass : hideArrowClass
   const govBannerClass = isExpanded ? showGovBanner : hideGovBanner
 
   return (

@@ -4,9 +4,10 @@ import {
   BottomBanner,
   Navbar,
   SiteMetadata,
+  DevelopmentBanner
 } from "@thepolicylab-projectportals/gatsby-theme-project-portal/src/components"
 
-import { GovBanner } from "../../GovBanner"
+import { GovBanner } from "../../../components/GovBanner"
 
 import { useProjectPortalConfig } from "@thepolicylab-projectportals/gatsby-theme-project-portal/src/hooks"
 
@@ -36,6 +37,7 @@ export const Layout: FunctionComponent<LayoutProps> = ({
 
   return (
     <div className="w-full mx-0 bg-white border-0 xl:container xl:p-0 xl:mx-auto xl:border-l xl:border-r xl:border-gray-200 flex flex-col min-h-screen">
+      {coalescedShowDevBanner && <DevelopmentBanner />}
       <GovBanner/>
       <SiteMetadata title={title} description={description} />
       <Navbar activePage={activePage} />

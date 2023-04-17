@@ -3439,20 +3439,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thepolicylab-projectportals/project-portal-content-netlify@npm:^6.0.0-b4":
-  version: 6.0.0-b4
-  resolution: "@thepolicylab-projectportals/project-portal-content-netlify@npm:6.0.0-b4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40thepolicylab-projectportals%2Fproject-portal-content-netlify%2F6.0.0-b4%2F9330097397e59c2fedf35f4f5a09c161b4ec0839"
+"@thepolicylab-projectportals/project-portal-content-netlify@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "@thepolicylab-projectportals/project-portal-content-netlify@npm:6.1.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40thepolicylab-projectportals%2Fproject-portal-content-netlify%2F6.1.1%2Fd31f7ad4654dcb1b273dda862132add4f86bf7d4"
   dependencies:
-    gatsby-plugin-netlify-cms: ^7.6.0
-    gatsby-source-filesystem: ^5.6.0
+    gatsby-plugin-netlify-cms: ^7.8.0
+    gatsby-source-filesystem: ^5.7.0
     gatsby-transformer-json: 5.6.0
     netlify-cms-app: ^2.15.72
   peerDependencies:
-    "@thepolicylab-projectportals/gatsby-theme-project-portal": 6.0.0-b4
+    "@thepolicylab-projectportals/gatsby-theme-project-portal": 6.1.1
     gatsby: ^5.3.3
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 9ac0bc682931be32587a1be9cc3526145e6be488626d4d8febe38cd534c11928e7fa175bbd407f3b9ed21488390a25bc70d188bce86c0e3b33f9719a77d6b4de
+  checksum: 91c7ede85fbfe01f177d64c27420a616ae46e1ba735b8be55f5cdb125bc56f10b4ec9495426124708128b909a81c539b1bddb58d842578e35be6dc2519f56e76
   languageName: node
   linkType: hard
 
@@ -7904,7 +7904,7 @@ __metadata:
   resolution: "example-content@workspace:."
   dependencies:
     "@thepolicylab-projectportals/gatsby-theme-project-portal": ^6.0.0-b4
-    "@thepolicylab-projectportals/project-portal-content-netlify": ^6.0.0-b4
+    "@thepolicylab-projectportals/project-portal-content-netlify": ^6.1.1
     gatsby: ^5.7.0
     gatsby-plugin-netlify: ^5.1.0
     gatsby-plugin-sitemap: ^6.7.0
@@ -8687,6 +8687,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-core-utils@npm:^4.8.0":
+  version: 4.8.0
+  resolution: "gatsby-core-utils@npm:4.8.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    ci-info: 2.0.0
+    configstore: ^5.0.1
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^11.1.0
+    got: ^11.8.5
+    hash-wasm: ^4.9.0
+    import-from: ^4.0.0
+    lmdb: 2.5.3
+    lock: ^1.1.0
+    node-object-hash: ^2.3.10
+    proper-lockfile: ^4.1.2
+    resolve-from: ^5.0.0
+    tmp: ^0.2.1
+    xdg-basedir: ^4.0.0
+  checksum: 6147c180162037b574873c1020538500d7c2f43f1a40fea04a13eb8c7e8197f4c1c177edf64cf4c7f55840ac7b79ea3278b82a93217a1766ef0ef501358eab9d
+  languageName: node
+  linkType: hard
+
 "gatsby-graphiql-explorer@npm:^3.7.0":
   version: 3.7.0
   resolution: "gatsby-graphiql-explorer@npm:3.7.0"
@@ -8806,9 +8830,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify-cms@npm:^7.6.0":
-  version: 7.6.0
-  resolution: "gatsby-plugin-netlify-cms@npm:7.6.0"
+"gatsby-plugin-netlify-cms@npm:^7.8.0":
+  version: 7.8.0
+  resolution: "gatsby-plugin-netlify-cms@npm:7.8.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     "@soda/friendly-errors-webpack-plugin": 1.8.1
@@ -8825,7 +8849,7 @@ __metadata:
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
     webpack: ^5.0.0
-  checksum: b83e6de76700aac6a4869083775665d0fe87931fd1cc00f2c718631ea181e919221c269b5554f859095b4d015fb479d82e78eecdc77351caaa8f22b48803b179
+  checksum: 8017c15c0a12af4b3b4b70f0c06852f55080a8a2d9a0764d72512126e90aacc13eacb4370768c6671873eedb48544b0e2821adace76bd0e9fa2e3128269d898e
   languageName: node
   linkType: hard
 
@@ -9078,6 +9102,25 @@ __metadata:
   peerDependencies:
     gatsby: ^5.0.0-next
   checksum: 65575e512b99d6d35f7e6ef0f9cb81bef063bd3493220f8cd6e717bcb4ae741326c715a79e614d24c6a4c8f2c8f74fec3e6afdf248d3e0b8a5493bea9c2364d7
+  languageName: node
+  linkType: hard
+
+"gatsby-source-filesystem@npm:^5.7.0":
+  version: 5.8.0
+  resolution: "gatsby-source-filesystem@npm:5.8.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    chokidar: ^3.5.3
+    file-type: ^16.5.4
+    fs-extra: ^11.1.0
+    gatsby-core-utils: ^4.8.0
+    mime: ^3.0.0
+    pretty-bytes: ^5.6.0
+    valid-url: ^1.0.9
+    xstate: ^4.35.3
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: 4a8ebf29f444cfcae61074f7f8cb1c98d6bad13e5f60d57c18c5934e70c68d910d7606773f0675b9f16e5ea1190aa7285dd3a7b119ea1daa23457193439dcd68
   languageName: node
   linkType: hard
 

@@ -1,5 +1,5 @@
 {
-  "name": "example-content",
+  "name": "fed-content",
   "version": "0.0.0",
   "packageManager": "yarn@3.4.1",
   "author": "The Policy Lab <thepolicylab@brown.edu>",
@@ -20,7 +20,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "pa11y-ci": "^3.0.1",
     "prettier": "^2.8.4"
   }
 }

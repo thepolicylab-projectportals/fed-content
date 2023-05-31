@@ -1,7 +1,6 @@
 {
   "name": "fed-content",
   "version": "0.0.0",
-  "packageManager": "yarn@3.4.1",
   "author": "The Policy Lab <thepolicylab@brown.edu>",
   "license": "MIT",
   "scripts": {

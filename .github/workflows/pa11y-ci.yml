@@ -32,7 +32,7 @@ jobs:
 
       - run: npm run build
 
-      - name: Start up app
+      - name: Start up the app
         run: npm serve & npx wait-on http://localhost:9000
 
       - name: Run pa11y-ci

@@ -7,6 +7,11 @@ A usage of
 [gatsby-theme-project-portal](https://github.com/thepolicylab-projectportals/project-portal-theme)
 for the Evaluation Officer Council. 
 
+
+### Project Portal Packages
+This project utilizes the gatsby-theme-project-portal and project-portal-content-netlify packages developed by The Policy Lab team. 
+Please refer to https://www.npmjs.com/settings/thepolicylab-projectportals/packages for more details on these public packages. 
+
 ## Quick Start Guide
 
 See https://github.com/thepolicylab-projectportals/example-content#quick-start-guide for details.

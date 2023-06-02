@@ -10,7 +10,6 @@ const hideArrowClass = showArrowClass + " hidden"
 const showGovBanner = "py-6 px-8 text-base mx-auto max-w-5xl w-full overflow-hidden"
 const hideGovBanner = showGovBanner + " hidden"
 
-
 export const GovBanner: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 

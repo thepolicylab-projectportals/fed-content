@@ -1,0 +1,23 @@
+{
+  "requirement": "Email INSERT_EMAIL, attaching your resume; and plan to attend a virtual group meeting on Wednesday June 7, 2023 from 2:30-3:30 EST, to discuss the project opportunity (a calendar invitation will be sent to you).",
+  "topics": [
+    "economic-development"
+  ],
+  "agency": "General Services Administration",
+  "keyDates": "1. Literature review due September 1, 2023\n2. Memo recommending which measures GSA should use due September 15, 2023\n3. Evaluation plan due September 22, 2023",
+  "summary": "The [Infrastructure Investment and Jobs Act](<Infrastructure Investment and Jobs Act>)(also referred to as the Bipartisan Infrastructure Law (BIL)), signed by President Biden in 2022, makes historic investments in strengthening supply chains and improving our nation’s ports, airports, rail, and roads. The BIL includes $3.4 billion for the General Services Administration to improve our nation’s land ports of entry (LPOE) along America’s northern and southern borders. \n\n\nThe BIL LPOE program will undertake 26 major construction and modernization projects in 11 States across seven GSA regions. One of the program objectives is to strengthen community livability and advance community goals around LPOE projects.\n\n\\\nTo meet this objective, the LPOE program is providing LPOE regional points of contact (RPOCs) with resources to engage with the surrounding communities, identify community goals and barriers, and support them in advancing their local development goals (e.g., linking to other funding opportunities to support the community). The theory of change is that this community engagement will meaningfully change how the LPOE program is funded and implemented, relative to if no or limited community engagement were done. \n\n\nThis proposed project aims to assess whether and how much the theorized impacts do, in fact, occur. To that end, we seek a partner who can: \n\n1. Conduct a literature review, which identifies different ways to operationalize and measure community engagement in the context of construction and modernization projects; and then,\n2. Design an evaluation plan, using those operationalized metrics, which will empower us to learn about the economic and environmental impacts associated with community engagement in the context of the LPOE program (relative to if no such engagement had been done). \n\nFor more about the BIL and LPOE, [see here](https://www.gsa.gov/real-estate/gsa-properties/land-ports-of-entry/bipartisan-infrastructure-law-construction-projects).",
+  "question": "How can GSA measure the impacts of community engagement on how public funds are spent?",
+  "mainContact": "center-for-computation-and-visualization",
+  "created": "2023-07-18T15:21:51.404Z",
+  "endDate": "",
+  "fundingInfo": "$1,000 honorarium",
+  "opportunityCloses": "",
+  "startDate": "",
+  "expertise": "Knowledge of community engagement, especially in the context of construction and modernization projects; evaluation research methods/ design (e.g., mixed methods, experimental/quasi-experimental design).",
+  "status": "open",
+  "statusOfData": "If the partner has suggestions for relevant administrative data to help inform the project, we can assess whether such data exists and can be shared. But our current assessment is that no data sharing will be required for this project.",
+  "title": "bil_community_engagement",
+  "purpose": "We will use the evaluation plan to evaluate the impacts of community engagement within the LPOE program. We also expect to use this general approach to inform how to evaluate the impacts of community engagement within other GSA programmatic areas.",
+  "lastModified": "2023-07-18T15:27:36.778Z",
+  "deliverable": "1. A literature review that summarizes and assesses best practices on how to measure the impacts of community engagement;\n2. A memo building off that review, which recommends which measures GSA should use; and\n3. An evaluation plan (ideally a pre-analysis plan as well), for how GSA can conduct an evaluation estimating the impacts of community engagement."
+}

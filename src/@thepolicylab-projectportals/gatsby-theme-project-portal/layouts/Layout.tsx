@@ -1,5 +1,4 @@
 import React, { FunctionComponent, ReactNode } from "react"
-import { graphql } from "gatsby"
 import { ImageDataLike } from "gatsby-plugin-image"
 
 import {
@@ -101,65 +100,3 @@ export const Layout: FunctionComponent<ThemeLayoutProps> = ({
     </>
   )
 }
-
-export const query = graphql`
-  fragment LayoutData on Query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    projectPortalConfig {
-      showDevBanner
-      pages {
-        link
-        name
-        show
-      }
-      staticText {
-        bottomBanner: bottom_banner {
-          text
-          link
-        }
-        footer {
-          copyright
-          links {
-            title
-            link
-          }
-          heading {
-            title
-            link
-          }
-        }
-      }
-    }
-    navbarLogo: file(
-      name: { eq: "navbar" }
-      extension: { in: ["png", "jpg", "jpeg"] }
-      sourceInstanceName: { eq: "themeImages" }
-    ) {
-      childImageSharp {
-        gatsbyImageData(height: 64)
-      }
-    }
-    bottomBannerLogo: file(
-      name: { eq: "bottom-banner" }
-      extension: { in: ["png", "jpg", "jpeg"] }
-      sourceInstanceName: { eq: "themeImages" }
-    ) {
-      childImageSharp {
-        gatsbyImageData(width: 160)
-      }
-    }
-    footerLogo: file(
-      name: { eq: "footer" }
-      extension: { in: ["png", "jpg", "jpeg"] }
-      sourceInstanceName: { eq: "themeImages" }
-    ) {
-      childImageSharp {
-        gatsbyImageData(height: 64)
-      }
-    }
-  }
-`

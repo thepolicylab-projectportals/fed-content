@@ -10,22 +10,22 @@
       },
       {
         "name": "Ongoing",
-        "link": "/ongoing",
+        "link": "/ongoing/",
         "show": true
       },
       {
         "name": "Completed",
-        "link": "/completed",
+        "link": "/completed/",
         "show": true
       },
       {
         "name": "About",
-        "link": "/about",
+        "link": "/about/",
         "show": true
       },
       {
         "name": "Contact",
-        "link": "/contact",
+        "link": "/contact/",
         "show": true
       }
     ]

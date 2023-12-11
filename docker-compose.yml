@@ -7,4 +7,4 @@ services:
       - .:/app:delegated
     ports:
       - "8000:8000"
-    command: npm run develop -- -H 0.0.0.0
+    command: npm run develop --verbose -- -H 0.0.0.0

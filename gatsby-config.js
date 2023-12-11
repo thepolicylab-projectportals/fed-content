@@ -1,6 +1,6 @@
 const {
   loadProjectPortalThemeOptions,
-} = require("@thepolicylab-projectportals/project-portal-content-netlify/utils/theme-options")
+} = require("@thepolicylab-projectportals/project-portal-content-decap/utils/theme-options")
 const { siteMetadata, themeOptions } = loadProjectPortalThemeOptions()
 
 module.exports = {
@@ -14,7 +14,7 @@ module.exports = {
         faviconPath: `${__dirname}/content/theme-image/favicon.png`,
       },
     },
-    `@thepolicylab-projectportals/project-portal-content-netlify`,
+    `@thepolicylab-projectportals/project-portal-content-decap`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-sitemap`,
   ],

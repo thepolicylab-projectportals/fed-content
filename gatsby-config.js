@@ -15,7 +15,6 @@ module.exports = {
       },
     },
     `@thepolicylab-projectportals/project-portal-content-decap`,
-    `gatsby-plugin-netlify`,
     `gatsby-plugin-sitemap`,
   ],
 }

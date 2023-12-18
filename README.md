@@ -29,7 +29,7 @@ npm run build
 ```
 Once the build process is completed, run the following command to preview the production build locally.
 ```shell
-yarn run serve
+npm run serve
 ```
 
 

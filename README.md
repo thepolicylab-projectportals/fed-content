@@ -35,10 +35,31 @@ npm run serve
 
 
 #### With Docker
-    $ docker-compose run node npm install
-    $ docker-compose up
+_Before running the application with Docker, ensure that you delete the `.cache`, `node_modules`, and `public` folders, which might have been generated from previous executions of the Federal Project Portal site._
 
+```shell
+docker-compose run node npm install
+```
+```shell
+docker-compose up
+```
 To build but not serve the site, run:
 ```
 docker-compose run node npm run build
+```
+
+## Accessing Decap CMS 
+
+_For local execution and Docker execution_
+
+Navigate to [static/admin/config.yml](./static/admin/config.yml) and make the following change locally:
+
+```yaml
+local_backend: true
+```
+
+In a separate terminal, spin up the `decap-server` by running the following command.
+
+```shell
+npx decap-server
 ```

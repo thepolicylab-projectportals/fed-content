@@ -2,7 +2,8 @@
 
 A usage of [gatsby-theme-project-portal](https://github.com/thepolicylab-projectportals/project-portal-theme) for the Evaluation Officer Council. 
 
-Docker implementation of the Federal Project Portal Site references the implementation found in the [cloud-gov Pages template](https://github.com/cloud-gov/pages-uswds-gatsby). 
+The Docker implementation of the Federal Project Portal Site is based on the implementation found in the [cloud-gov Pages template](https://github.com/cloud-gov/pages-uswds-gatsby).
+
 
 ### Project Portal Packages
 This project utilizes the gatsby-theme-project-portal and project-portal-content-netlify packages developed by The Policy Lab team. 
